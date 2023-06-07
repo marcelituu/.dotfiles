@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#
+virsh net-start default
+virsh start kali-linux
+
+sleep 15
+
+ssh -X marcel@192.168.122.250
